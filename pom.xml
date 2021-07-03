@@ -62,5 +62,15 @@
             <version>3.18.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>lambda</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>apigateway</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
     </dependencies>
 </project>
